@@ -1,0 +1,223 @@
+/* Basic Reset & Body Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header/Hero Section */
+.hero {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5em;
+}
+
+.hero .tagline {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .contact-info span {
+    margin: 0 10px;
+}
+
+.hero .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.hero .social-links a:hover {
+    color: #1abc9c; /* A nice green accent */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Section Blocks */
+.section-block {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section-block h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Experience Section */
+.job-entry {
+    margin-bottom: 20px;
+    border-left: 4px solid #1abc9c;
+    padding-left: 15px;
+}
+
+.job-entry h3 {
+    margin: 0 0 5px;
+    color: #34495e;
+}
+
+.job-entry .dates {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job-entry ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+/* Projects Section */
+.project-entry {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 15px;
+}
+
+.project-entry:last-child {
+    border-bottom: none;
+}
+
+.project-entry h3 {
+    margin: 0 0 10px;
+    color: #34495e;
+}
+
+.project-entry ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.project-entry a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-entry a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skills-grid span {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    white-space: nowrap; /* Prevents breaking skill names */
+}
+
+/* Education Section */
+.education-entry {
+    margin-bottom: 20px;
+    border-left: 4px solid #1abc9c;
+    padding-left: 15px;
+}
+
+.education-entry h3 {
+    margin: 0 0 5px;
+    color: #34495e;
+}
+
+/* Achievements Section */
+.section-block ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar ul li {
+        margin: 5px 0;
+    }
+}
