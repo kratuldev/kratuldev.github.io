@@ -1,27 +1,98 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-    <title>Kumar Atul</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-   <!-- <link rel="stylesheet" href="assets/css/main.css" />-->
-   <!--  <link rel="icon" href="images/favicon.png" type="images/favicon.png" sizes="16x16">-->
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kumar Atul • Android Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 
-<body class="is-preload">
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="sticky top-0 bg-white shadow z-10">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold">Kumar Atul</h1>
+      <ul class="flex gap-6">
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Header -->
-    <header id="header">
-        <div class="inner">
-           <!--  <a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>-->
-            <h1>
-                <strong>Kumar Atul</strong>
-            </h1>
-            Mobile Engineer | Code Architect | Android <br /> Kotlin | Java | JavaScript
-        </div>
-    </header>
+  <!-- Hero -->
+  <section class="text-center py-24 bg-gray-50">
+    <h2 class="text-4xl font-bold mb-2">Hi, I'm Kumar Atul</h2>
+    <p class="text-lg text-gray-600 mb-6">Staff Software Engineer | Android Specialist | IIT(ISM) Dhanbad Alum</p>
+    <div class="space-x-4">
+      <a href="https://github.com/kratuldev" class="text-blue-600 underline">GitHub</a>
+      <a href="https://linkedin.com/in/kumar-atul" class="text-blue-600 underline">LinkedIn</a>
+    </div>
+  </section>
 
+  <!-- About -->
+  <section id="about" class="py-20 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-4">About Me</h3>
+    <p class="text-gray-700 leading-relaxed">
+      I’m an Android engineer with over 13 years of experience in building scalable, performant mobile applications. I’ve led projects at Walmart, Unacademy, CleverTap, and Samsung. My focus is on system design, performance optimization, GenAI integrations, and engineering leadership. I thrive on simplifying complex problems with elegant engineering solutions.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-20 px-6 bg-gray-50 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-4">Experience</h3>
+    <ul class="space-y-6">
+      <li>
+        <h4 class="text-xl font-bold">Staff Software Engineer – Walmart Global Tech India</h4>
+        <p class="text-gray-600">Jan 2023 – Present</p>
+        <p>Leading GenAI initiatives and Android architecture improvements for Walmart’s e-commerce app.</p>
+      </li>
+      <li>
+        <h4 class="text-xl font-bold">Engineering Lead – Unacademy</h4>
+        <p class="text-gray-600">Apr 2021 – Dec 2022</p>
+        <p>Improved startup time by 33% and optimized build and memory performance.</p>
+      </li>
+      <li>
+        <h4 class="text-xl font-bold">Senior Mobile Developer – CleverTap</h4>
+        <p class="text-gray-600">Sep 2019 – Mar 2021</p>
+        <p>Developed A/B engine and optimized SDK performance with CI/CD automation.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-4">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="border rounded-lg p-4 shadow">
+        <h4 class="text-xl font-bold">Walmart App GenAI</h4>
+        <p class="text-gray-700">Led integration of AI features like Image Search and Review Summary into the Walmart Android app.</p>
+      </div>
+      <div class="border rounded-lg p-4 shadow">
+        <h4 class="text-xl font-bold">CleverTap SDK</h4>
+        <p class="text-gray-700">Refactored SDK for better testing and performance. Designed A/B test framework.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 text-center bg-gray-100">
+    <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
+    <p class="text-gray-700 mb-2">Email: <a href="mailto:kumaratul.me@gmail.com" class="text-blue-600 underline">kumaratul.me@gmail.com</a></p>
+    <p class="text-gray-700">LinkedIn: <a href="https://linkedin.com/in/kumar-atul" class="text-blue-600 underline">@kumar-atul</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-white border-t">
+    <p class="text-gray-500">© 2025 Kumar Atul. All rights reserved.</p>
+  </footer>
 </body>
+
 </html>
