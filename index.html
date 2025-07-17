@@ -1,98 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kumar Atul • Android Engineer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Atul - Staff Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
 
-<body class="bg-white text-gray-800 font-sans">
-  <!-- Header -->
-  <header class="sticky top-0 bg-white shadow z-10">
-    <nav class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
-      <h1 class="text-2xl font-bold">Kumar Atul</h1>
-      <ul class="flex gap-6">
-        <li><a href="#about" class="hover:text-blue-600">About</a></li>
-        <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
-        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
-        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
-      </ul>
+    <header class="hero">
+        <div class="container">
+            <img src="images/profile.jpg" alt="Kumar Atul" class="profile-pic">
+            <h1>Kumar Atul</h1>
+            [cite_start]<p class="tagline">An IIT graduate having 13+ years of rich experience in Android application design, development, unit testing, code reviews & delivery. [cite: 2]</p>
+            <div class="contact-info">
+                [cite_start]<span>📍 Bengaluru, India [cite: 3]</span> |
+                [cite_start]<span>📞 (+91) 9899-525-121 [cite: 4]</span> |
+                [cite_start]<span>📧 kumaratul.me@gmail.com [cite: 5]</span>
+            </div>
+            <div class="social-links">
+                [cite_start]<a href="https://linkedin.com/in/yourlinkedinprofile" target="_blank">LinkedIn [cite: 6]</a>
+                [cite_start]<a href="https://github.com/yourgithubprofile" target="_blank">GitHub [cite: 6]</a>
+                </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <!-- Hero -->
-  <section class="text-center py-24 bg-gray-50">
-    <h2 class="text-4xl font-bold mb-2">Hi, I'm Kumar Atul</h2>
-    <p class="text-lg text-gray-600 mb-6">Staff Software Engineer | Android Specialist | IIT(ISM) Dhanbad Alum</p>
-    <div class="space-x-4">
-      <a href="https://github.com/kratuldev" class="text-blue-600 underline">GitHub</a>
-      <a href="https://linkedin.com/in/kumar-atul" class="text-blue-600 underline">LinkedIn</a>
-    </div>
-  </section>
+    <main class="container">
 
-  <!-- About -->
-  <section id="about" class="py-20 px-6 max-w-5xl mx-auto">
-    <h3 class="text-3xl font-semibold mb-4">About Me</h3>
-    <p class="text-gray-700 leading-relaxed">
-      I’m an Android engineer with over 13 years of experience in building scalable, performant mobile applications. I’ve led projects at Walmart, Unacademy, CleverTap, and Samsung. My focus is on system design, performance optimization, GenAI integrations, and engineering leadership. I thrive on simplifying complex problems with elegant engineering solutions.
-    </p>
-  </section>
+        <section id="about" class="section-block">
+            <h2>About Me</h2>
+            <p>
+                [cite_start]As an IIT graduate with over 13 years of extensive experience, I specialize in Android application design, development, unit testing, code reviews, and delivery[cite: 2]. My journey has equipped me with strong leadership skills and a passion for building robust, high-performance mobile solutions. I'm particularly interested in leveraging cutting-edge technologies like Gen AI to create innovative user experiences.
+            </p>
+        </section>
 
-  <!-- Experience -->
-  <section id="experience" class="py-20 px-6 bg-gray-50 max-w-5xl mx-auto">
-    <h3 class="text-3xl font-semibold mb-4">Experience</h3>
-    <ul class="space-y-6">
-      <li>
-        <h4 class="text-xl font-bold">Staff Software Engineer – Walmart Global Tech India</h4>
-        <p class="text-gray-600">Jan 2023 – Present</p>
-        <p>Leading GenAI initiatives and Android architecture improvements for Walmart’s e-commerce app.</p>
-      </li>
-      <li>
-        <h4 class="text-xl font-bold">Engineering Lead – Unacademy</h4>
-        <p class="text-gray-600">Apr 2021 – Dec 2022</p>
-        <p>Improved startup time by 33% and optimized build and memory performance.</p>
-      </li>
-      <li>
-        <h4 class="text-xl font-bold">Senior Mobile Developer – CleverTap</h4>
-        <p class="text-gray-600">Sep 2019 – Mar 2021</p>
-        <p>Developed A/B engine and optimized SDK performance with CI/CD automation.</p>
-      </li>
-    </ul>
-  </section>
+        <section id="experience" class="section-block">
+            [cite_start]<h2>Experience [cite: 7]</h2>
 
-  <!-- Projects -->
-  <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
-    <h3 class="text-3xl font-semibold mb-4">Projects</h3>
-    <div class="grid md:grid-cols-2 gap-8">
-      <div class="border rounded-lg p-4 shadow">
-        <h4 class="text-xl font-bold">Walmart App GenAI</h4>
-        <p class="text-gray-700">Led integration of AI features like Image Search and Review Summary into the Walmart Android app.</p>
-      </div>
-      <div class="border rounded-lg p-4 shadow">
-        <h4 class="text-xl font-bold">CleverTap SDK</h4>
-        <p class="text-gray-700">Refactored SDK for better testing and performance. Designed A/B test framework.</p>
-      </div>
-    </div>
-  </section>
+            <div class="job-entry">
+                <h3>Staff Software Engineer - Walmart Global Tech India, Bengaluru</h3>
+                [cite_start]<p class="dates">JAN 2023 - PRESENT [cite: 8]</p>
+                <ul>
+                    [cite_start]<li>Architect and Individual contributor responsible for feature delivery, OpEx metrics, innovations, technical design. [cite: 9]</li>
+                    [cite_start]<li>Leading GenAI initiatives (ImageSearch, Review Summary, Product Summary) to deliver AI driven e-commerce experience. [cite: 21, 22]</li>
+                    [cite_start]<li>Leading resiliency initiatives from FE. [cite: 23]</li>
+                    [cite_start]<li>FE Architect for home, search and product page of Walmart app. [cite: 24]</li>
+                </ul>
+            </div>
 
-  <!-- Contact -->
-  <section id="contact" class="py-20 px-6 text-center bg-gray-100">
-    <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
-    <p class="text-gray-700 mb-2">Email: <a href="mailto:kumaratul.me@gmail.com" class="text-blue-600 underline">kumaratul.me@gmail.com</a></p>
-    <p class="text-gray-700">LinkedIn: <a href="https://linkedin.com/in/kumar-atul" class="text-blue-600 underline">@kumar-atul</a></p>
-  </section>
+            <div class="job-entry">
+                <h3>Engineering Lead - Unacademy, Bengaluru</h3>
+                [cite_start]<p class="dates">APR 2021 - DEC 2022 [cite: 10]</p>
+                <ul>
+                    [cite_start]<li>Team leader and Individual contributor responsible for building features, maintaining app's performance, android vitals and security. [cite: 11]</li>
+                    [cite_start]<li>Reduced the app startup time by 33%. [cite: 65]</li>
+                    [cite_start]<li>Worked on optimizing build speed. [cite: 67]</li>
+                </ul>
+            </div>
 
-  <!-- Footer -->
-  <footer class="text-center py-6 bg-white border-t">
-    <p class="text-gray-500">© 2025 Kumar Atul. All rights reserved.</p>
-  </footer>
+            <div class="job-entry">
+                <h3>Senior Mobile Developer - CleverTap, Mumbai</h3>
+                [cite_start]<p class="dates">SEP 2019 - MAR 2021 [cite: 12]</p>
+                <ul>
+                    [cite_start]<li>Mentor and individual contributor for the mobile SDK team. [cite: 13]</li>
+                    [cite_start]<li>Designed & developed A/B engine for the SDK. [cite: 72]</li>
+                    [cite_start]<li>Refactored entire code base for automation testing in CI/CD. [cite: 73]</li>
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <h3>Technical Lead - Times Internet, Noida</h3>
+                [cite_start]<p class="dates">JAN 2016 - AUG 2019 [cite: 13]</p>
+                <ul>
+                    [cite_start]<li>Team leader and individual contributor for the Times news apps. [cite: 14]</li>
+                    [cite_start]<li>Designed the entire login flow along with Single Sign-On. [cite: 78]</li>
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <h3>Senior Software Engineer - Samsung, Bengaluru/Noida</h3>
+                [cite_start]<p class="dates">FEB 2012 - DEC 2015 [cite: 14]</p>
+                <ul>
+                    [cite_start]<li>Individual contributor for the stock email application. [cite: 15]</li>
+                    [cite_start]<li>Optimized download time for email attachment. [cite: 84]</li>
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <h3>Associate Software Engineer - CGI, Hyderabad</h3>
+                [cite_start]<p class="dates">JUN 2010 - JUL 2011 [cite: 16]</p>
+                <ul>
+                    [cite_start]<li>Individual contributor for CIGNA's claim engine on AS400. [cite: 17]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section-block">
+            [cite_start]<h2>Projects [cite: 18]</h2>
+
+            <div class="project-entry">
+                [cite_start]<h3>Walmart E-Commerce App [cite: 18]</h3>
+                <ul>
+                    [cite_start]<li>Worked on build speed improvement by 30%. [cite: 20]</li>
+                    [cite_start]<li>Improved Image load time by 80% by onboarding apps to use webp format. [cite: 25]</li>
+                    [cite_start]<li>Reduced development time by 87.5% by introducing unified badge experience. [cite: 26, 27]</li>
+                </ul>
+                <p><a href="https://play.google.com/store/apps/details?id=com.walmart.android" target="_blank">View on Play Store</a></p>
+                </div>
+
+            <div class="project-entry">
+                [cite_start]<h3>Unacademy Learner App [cite: 64]</h3>
+                <ul>
+                    [cite_start]<li>Reduced the app startup time by 33%. [cite: 65]</li>
+                    [cite_start]<li>Worked on memory Leak Identification in CI/CD & Fixes. [cite: 68]</li>
+                </ul>
+                <p><a href="https://play.google.com/store/apps/details?id=com.unacademyapp" target="_blank">View on Play Store</a></p>
+                </div>
+
+            <div class="project-entry">
+                [cite_start]<h3>CleverTap Mobile SDK [cite: 70]</h3>
+                <ul>
+                    [cite_start]<li>Built a task framework for the optimal use of threads in the SDK. [cite: 75]</li>
+                    [cite_start]<li>Improved push Notification delivery by various methods. [cite: 74]</li>
+                </ul>
+                <p><a href="https://github.com/CleverTap/clevertap-android-sdk" target="_blank">View SDK on GitHub</a></p>
+                </div>
+
+            <div class="project-entry">
+                [cite_start]<h3>Times of India News App [cite: 59, 76]</h3>
+                <ul>
+                    [cite_start]<li>Integrated various ads and optimized ad delivery rate. [cite: 79]</li>
+                    [cite_start]<li>Developed live notification feature for election results & match score. [cite: 80, 81]</li>
+                </ul>
+                <p><a href="https://play.google.com/store/apps/details?id=com.toi.reader.activities" target="_blank">View on Play Store</a></p>
+                </div>
+
+            <div class="project-entry">
+                [cite_start]<h3>Samsung Email [cite: 62, 83]</h3>
+                <ul>
+                    [cite_start]<li>Optimized auto email setup time by 200%. [cite: 85]</li>
+                    [cite_start]<li>Integrated social sites API's (FB, Twitter, LinkedIn) in email client. [cite: 86]</li>
+                </ul>
+                </div>
+        </section>
+
+        <section id="skills" class="section-block">
+            [cite_start]<h2>Skills [cite: 31]</h2>
+            <div class="skills-grid">
+                [cite_start]<span>System Design [cite: 32]</span>
+                [cite_start]<span>Android [cite: 33]</span>
+                [cite_start]<span>Kotlin [cite: 34]</span>
+                [cite_start]<span>Java [cite: 35]</span>
+                [cite_start]<span>Java Script [cite: 36]</span>
+                [cite_start]<span>Python [cite: 37]</span>
+                [cite_start]<span>Gen AI [cite: 38]</span>
+                [cite_start]<span>Data Structures [cite: 39]</span>
+                [cite_start]<span>Algorithms [cite: 40]</span>
+                [cite_start]<span>Clean/MVVM/MVP [cite: 41]</span>
+                [cite_start]<span>TDD/ Unit Testing [cite: 42]</span>
+                [cite_start]<span>Dagger2 [cite: 43]</span>
+                [cite_start]<span>React Native [cite: 44]</span>
+                [cite_start]<span>Social API integration [cite: 45]</span>
+                [cite_start]<span>Leadership [cite: 46]</span>
+            </div>
+        </section>
+
+        <section id="education" class="section-block">
+            [cite_start]<h2>Education [cite: 28]</h2>
+            <div class="education-entry">
+                <h3>B.Tech - Computer Engineering</h3>
+                [cite_start]<p>IIT(ISM), Dhanbad [cite: 29]</p>
+                [cite_start]<p>2006-2010 [cite: 30]</p>
+            </div>
+        </section>
+
+        <section id="achievements" class="section-block">
+            [cite_start]<h2>Achievements [cite: 47]</h2>
+            <ul>
+                [cite_start]<li>Employee of the Month - WMT [cite: 48]</li>
+                [cite_start]<li>Hackathon Winner [cite: 49]</li>
+                [cite_start]<li>Samsung Advance Level Programmer [cite: 50, 51]</li>
+                [cite_start]<li>Samsung Best Performer [cite: 52]</li>
+                [cite_start]<li>IIT-JEE [cite: 53]</li>
+                [cite_start]<li>Super 30 [cite: 54]</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kumar Atul. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
-
 </html>
